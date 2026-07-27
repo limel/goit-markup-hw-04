@@ -16,7 +16,6 @@
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
-    margin-top: 8px;
 }
 
 .features-text {
@@ -25,6 +24,10 @@
 }
 
 .features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -33,5 +36,4 @@
 .features-icon svg {
     width: 64px;
     height: 64px;
-    margin: 24px;
 }
